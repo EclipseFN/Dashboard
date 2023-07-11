@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.textbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.textbox input[type="text"],
+.textbox input[type="number"] {
+  width: 200px;
+  margin-right: 10px; /* Add space between the text and number boxes */
+}
